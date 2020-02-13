@@ -2,12 +2,16 @@ const string ='abc';
 const number = 1;
 const boolean = true;
 const obj = {
+  // d0
   outside: {
+    // d1
     inside: {
+      // d2
       key:'value',
     },
   },
 };
+// [ a, b, c ] 배열, { key: value } 객체
 
 // console.time 
 // 같은 태그 값이 부여된 사이의 코드의 실행 시간을 계산한다
